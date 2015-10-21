@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE hibernate-configuration PUBLIC
+	"-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+	"http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+	
+<hibernate-configuration>
+	<session-factory>
+		<property name="hibernate.dialect">org.hibernate.dialect.HSQLDialect</property>
+		<property name="hibernate.connection.autocommit">true</property>
+		<property name="hibernate.connection.url">jdbc:hsqldb:file:pBotDB</property>
+		<property name="hibernate.connection.driver_class">org.hsqldb.jdbcDriver</property>
+		<property name="hibernate.connection.username">jarvis</property>
+		<property name="hibernate.connection.password">ironman</property>
+
+		<property name="hibernate.show_sql">true</property>
+		<property name="hibernate.hbm2ddl.auto">create</property>
+		<property name="hibernate.cache.provider_class">org.hibernate.cache.HashtableCacheProvider</property>
+
+		<mapping class="br.com.jarvis.pbot.model.User" />
+ 		<mapping class="br.com.jarvis.pbot.model.Message" />
+	</session-factory>
+</hibernate-configuration>
