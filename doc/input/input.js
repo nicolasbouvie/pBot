@@ -1,0 +1,1287 @@
+var com = {
+	"qmino":{
+		"miredot":{
+		},
+	},
+};
+com.qmino.miredot.restApiSource = {
+	"projectName":"pbot Maven Webapp",
+	"projectVersion":"0.0.1-SNAPSHOT",
+	"projectTitle":"pbot Maven Webapp-0.0.1-SNAPSHOT",
+	"buildSystem":"maven 3",
+	"miredotVersion":"1.6.2",
+	"miredotRevision":"f89b750ce8b9",
+	"jsonDocEnabled":false,
+	"jsonDocHidden":true,
+	"singlePage":false,
+	"hideLogoOnTop":false,
+	"dateOfGeneration":"2015-10-21 22:48:09",
+	"validLicense":true,
+	"licenseErrorMessage":null,
+	"licenseType":"FREE",
+	"allowUsageTracking":true,
+	"licenseHash":"6158688656135777040",
+};
+
+com.qmino.miredot.restApiSource.tos = {
+	"br_com_jarvis_pbot_bean_UserBean_in":{
+		"type":"complex",
+		"name":"br_com_jarvis_pbot_bean_UserBean_in",
+		"content":[
+		],
+	},
+	"br_com_jarvis_pbot_bean_UserBean_out":{
+		"type":"complex",
+		"name":"br_com_jarvis_pbot_bean_UserBean_out",
+		"content":[
+		],
+	},
+	"org_springframework_http_ResponseEntity_java_lang_String__in":{
+		"type":"complex",
+		"name":"org_springframework_http_ResponseEntity_java_lang_String__in",
+		"content":[
+		],
+	},
+	"org_springframework_http_ResponseEntity_java_lang_String__out":{
+		"type":"complex",
+		"name":"org_springframework_http_ResponseEntity_java_lang_String__out",
+		"content":[
+		],
+	},
+	"org_springframework_http_ResponseEntity_br_com_jarvis_pbot_bean_UserBean__in":{
+		"type":"complex",
+		"name":"org_springframework_http_ResponseEntity_br_com_jarvis_pbot_bean_UserBean__in",
+		"content":[
+		],
+	},
+	"org_springframework_http_ResponseEntity_br_com_jarvis_pbot_bean_UserBean__out":{
+		"type":"complex",
+		"name":"org_springframework_http_ResponseEntity_br_com_jarvis_pbot_bean_UserBean__out",
+		"content":[
+		],
+	},
+	"org_springframework_http_ResponseEntity_java_lang_Boolean__in":{
+		"type":"complex",
+		"name":"org_springframework_http_ResponseEntity_java_lang_Boolean__in",
+		"content":[
+		],
+	},
+	"org_springframework_http_ResponseEntity_java_lang_Boolean__out":{
+		"type":"complex",
+		"name":"org_springframework_http_ResponseEntity_java_lang_Boolean__out",
+		"content":[
+		],
+	},
+	"org_springframework_http_ResponseEntity_br_com_jarvis_pbot_bean_MessageBean__in":{
+		"type":"complex",
+		"name":"org_springframework_http_ResponseEntity_br_com_jarvis_pbot_bean_MessageBean__in",
+		"content":[
+		],
+	},
+	"org_springframework_http_ResponseEntity_br_com_jarvis_pbot_bean_MessageBean__out":{
+		"type":"complex",
+		"name":"org_springframework_http_ResponseEntity_br_com_jarvis_pbot_bean_MessageBean__out",
+		"content":[
+		],
+	},
+	"org_springframework_http_ResponseEntity_java_lang_Void__in":{
+		"type":"complex",
+		"name":"org_springframework_http_ResponseEntity_java_lang_Void__in",
+		"content":[
+		],
+	},
+	"org_springframework_http_ResponseEntity_java_lang_Void__out":{
+		"type":"complex",
+		"name":"org_springframework_http_ResponseEntity_java_lang_Void__out",
+		"content":[
+		],
+	},
+	"br_com_jarvis_pbot_bean_MessageBean_in":{
+		"type":"complex",
+		"name":"br_com_jarvis_pbot_bean_MessageBean_in",
+		"content":[
+		],
+	},
+	"br_com_jarvis_pbot_bean_MessageBean_out":{
+		"type":"complex",
+		"name":"br_com_jarvis_pbot_bean_MessageBean_out",
+		"content":[
+		],
+	},
+};
+com.qmino.miredot.restApiSource.enums = {
+	"org_springframework_http_HttpStatus":{
+		"type":"enum",
+		"name":"org.springframework.http.HttpStatus",
+		"values":[
+			{
+				"name":"CONTINUE",
+				"comment":null,
+			},
+			{
+				"name":"SWITCHING_PROTOCOLS",
+				"comment":null,
+			},
+			{
+				"name":"PROCESSING",
+				"comment":null,
+			},
+			{
+				"name":"CHECKPOINT",
+				"comment":null,
+			},
+			{
+				"name":"OK",
+				"comment":null,
+			},
+			{
+				"name":"CREATED",
+				"comment":null,
+			},
+			{
+				"name":"ACCEPTED",
+				"comment":null,
+			},
+			{
+				"name":"NON_AUTHORITATIVE_INFORMATION",
+				"comment":null,
+			},
+			{
+				"name":"NO_CONTENT",
+				"comment":null,
+			},
+			{
+				"name":"RESET_CONTENT",
+				"comment":null,
+			},
+			{
+				"name":"PARTIAL_CONTENT",
+				"comment":null,
+			},
+			{
+				"name":"MULTI_STATUS",
+				"comment":null,
+			},
+			{
+				"name":"ALREADY_REPORTED",
+				"comment":null,
+			},
+			{
+				"name":"IM_USED",
+				"comment":null,
+			},
+			{
+				"name":"MULTIPLE_CHOICES",
+				"comment":null,
+			},
+			{
+				"name":"MOVED_PERMANENTLY",
+				"comment":null,
+			},
+			{
+				"name":"FOUND",
+				"comment":null,
+			},
+			{
+				"name":"MOVED_TEMPORARILY",
+				"comment":null,
+			},
+			{
+				"name":"SEE_OTHER",
+				"comment":null,
+			},
+			{
+				"name":"NOT_MODIFIED",
+				"comment":null,
+			},
+			{
+				"name":"USE_PROXY",
+				"comment":null,
+			},
+			{
+				"name":"TEMPORARY_REDIRECT",
+				"comment":null,
+			},
+			{
+				"name":"PERMANENT_REDIRECT",
+				"comment":null,
+			},
+			{
+				"name":"BAD_REQUEST",
+				"comment":null,
+			},
+			{
+				"name":"UNAUTHORIZED",
+				"comment":null,
+			},
+			{
+				"name":"PAYMENT_REQUIRED",
+				"comment":null,
+			},
+			{
+				"name":"FORBIDDEN",
+				"comment":null,
+			},
+			{
+				"name":"NOT_FOUND",
+				"comment":null,
+			},
+			{
+				"name":"METHOD_NOT_ALLOWED",
+				"comment":null,
+			},
+			{
+				"name":"NOT_ACCEPTABLE",
+				"comment":null,
+			},
+			{
+				"name":"PROXY_AUTHENTICATION_REQUIRED",
+				"comment":null,
+			},
+			{
+				"name":"REQUEST_TIMEOUT",
+				"comment":null,
+			},
+			{
+				"name":"CONFLICT",
+				"comment":null,
+			},
+			{
+				"name":"GONE",
+				"comment":null,
+			},
+			{
+				"name":"LENGTH_REQUIRED",
+				"comment":null,
+			},
+			{
+				"name":"PRECONDITION_FAILED",
+				"comment":null,
+			},
+			{
+				"name":"PAYLOAD_TOO_LARGE",
+				"comment":null,
+			},
+			{
+				"name":"REQUEST_ENTITY_TOO_LARGE",
+				"comment":null,
+			},
+			{
+				"name":"URI_TOO_LONG",
+				"comment":null,
+			},
+			{
+				"name":"REQUEST_URI_TOO_LONG",
+				"comment":null,
+			},
+			{
+				"name":"UNSUPPORTED_MEDIA_TYPE",
+				"comment":null,
+			},
+			{
+				"name":"REQUESTED_RANGE_NOT_SATISFIABLE",
+				"comment":null,
+			},
+			{
+				"name":"EXPECTATION_FAILED",
+				"comment":null,
+			},
+			{
+				"name":"I_AM_A_TEAPOT",
+				"comment":null,
+			},
+			{
+				"name":"INSUFFICIENT_SPACE_ON_RESOURCE",
+				"comment":null,
+			},
+			{
+				"name":"METHOD_FAILURE",
+				"comment":null,
+			},
+			{
+				"name":"DESTINATION_LOCKED",
+				"comment":null,
+			},
+			{
+				"name":"UNPROCESSABLE_ENTITY",
+				"comment":null,
+			},
+			{
+				"name":"LOCKED",
+				"comment":null,
+			},
+			{
+				"name":"FAILED_DEPENDENCY",
+				"comment":null,
+			},
+			{
+				"name":"UPGRADE_REQUIRED",
+				"comment":null,
+			},
+			{
+				"name":"PRECONDITION_REQUIRED",
+				"comment":null,
+			},
+			{
+				"name":"TOO_MANY_REQUESTS",
+				"comment":null,
+			},
+			{
+				"name":"REQUEST_HEADER_FIELDS_TOO_LARGE",
+				"comment":null,
+			},
+			{
+				"name":"INTERNAL_SERVER_ERROR",
+				"comment":null,
+			},
+			{
+				"name":"NOT_IMPLEMENTED",
+				"comment":null,
+			},
+			{
+				"name":"BAD_GATEWAY",
+				"comment":null,
+			},
+			{
+				"name":"SERVICE_UNAVAILABLE",
+				"comment":null,
+			},
+			{
+				"name":"GATEWAY_TIMEOUT",
+				"comment":null,
+			},
+			{
+				"name":"HTTP_VERSION_NOT_SUPPORTED",
+				"comment":null,
+			},
+			{
+				"name":"VARIANT_ALSO_NEGOTIATES",
+				"comment":null,
+			},
+			{
+				"name":"INSUFFICIENT_STORAGE",
+				"comment":null,
+			},
+			{
+				"name":"LOOP_DETECTED",
+				"comment":null,
+			},
+			{
+				"name":"BANDWIDTH_LIMIT_EXCEEDED",
+				"comment":null,
+			},
+			{
+				"name":"NOT_EXTENDED",
+				"comment":null,
+			},
+			{
+				"name":"NETWORK_AUTHENTICATION_REQUIRED",
+				"comment":null,
+			},
+		],
+	},
+};
+com.qmino.miredot.restApiSource.tos["br_com_jarvis_pbot_bean_UserBean_in"].content = [
+	{
+		"name":"name",
+		"comment":null,
+		"typeValue":{
+			"type":"simple",
+			"typeValue":"string",
+		},
+		"deprecated":false,
+		"required":false,
+	},
+	{
+		"name":"id",
+		"comment":null,
+		"typeValue":{
+			"type":"simple",
+			"typeValue":"number",
+		},
+		"deprecated":false,
+		"required":false,
+	},
+	{
+		"name":"password",
+		"comment":null,
+		"typeValue":{
+			"type":"simple",
+			"typeValue":"string",
+		},
+		"deprecated":false,
+		"required":false,
+	},
+];
+com.qmino.miredot.restApiSource.tos["br_com_jarvis_pbot_bean_UserBean_in"].ordered = "false";
+com.qmino.miredot.restApiSource.tos["br_com_jarvis_pbot_bean_UserBean_in"].comment = null;
+com.qmino.miredot.restApiSource.tos["br_com_jarvis_pbot_bean_UserBean_out"].content = [
+	{
+		"name":"name",
+		"comment":null,
+		"typeValue":{
+			"type":"simple",
+			"typeValue":"string",
+		},
+		"deprecated":false,
+		"required":false,
+	},
+	{
+		"name":"id",
+		"comment":null,
+		"typeValue":{
+			"type":"simple",
+			"typeValue":"number",
+		},
+		"deprecated":false,
+		"required":false,
+	},
+	{
+		"name":"password",
+		"comment":null,
+		"typeValue":{
+			"type":"simple",
+			"typeValue":"string",
+		},
+		"deprecated":false,
+		"required":false,
+	},
+];
+com.qmino.miredot.restApiSource.tos["br_com_jarvis_pbot_bean_UserBean_out"].ordered = "false";
+com.qmino.miredot.restApiSource.tos["br_com_jarvis_pbot_bean_UserBean_out"].comment = null;
+com.qmino.miredot.restApiSource.tos["org_springframework_http_ResponseEntity_java_lang_String__in"].content = [
+];
+com.qmino.miredot.restApiSource.tos["org_springframework_http_ResponseEntity_java_lang_String__in"].ordered = "false";
+com.qmino.miredot.restApiSource.tos["org_springframework_http_ResponseEntity_java_lang_String__in"].comment = null;
+com.qmino.miredot.restApiSource.tos["org_springframework_http_ResponseEntity_java_lang_String__out"].content = [
+	{
+		"name":"headers",
+		"comment":null,
+		"typeValue":{
+			"type":"simple",
+			"typeValue":"object",
+		},
+		"deprecated":false,
+		"required":false,
+	},
+	{
+		"name":"body",
+		"comment":null,
+		"typeValue":{
+			"type":"simple",
+			"typeValue":"string",
+		},
+		"deprecated":false,
+		"required":false,
+	},
+	{
+		"name":"statusCode",
+		"comment":null,
+		"typeValue":com.qmino.miredot.restApiSource.enums["org_springframework_http_HttpStatus"],
+		"deprecated":false,
+		"required":false,
+	},
+];
+com.qmino.miredot.restApiSource.tos["org_springframework_http_ResponseEntity_java_lang_String__out"].ordered = "false";
+com.qmino.miredot.restApiSource.tos["org_springframework_http_ResponseEntity_java_lang_String__out"].comment = null;
+com.qmino.miredot.restApiSource.tos["org_springframework_http_ResponseEntity_br_com_jarvis_pbot_bean_UserBean__in"].content = [
+];
+com.qmino.miredot.restApiSource.tos["org_springframework_http_ResponseEntity_br_com_jarvis_pbot_bean_UserBean__in"].ordered = "false";
+com.qmino.miredot.restApiSource.tos["org_springframework_http_ResponseEntity_br_com_jarvis_pbot_bean_UserBean__in"].comment = null;
+com.qmino.miredot.restApiSource.tos["org_springframework_http_ResponseEntity_br_com_jarvis_pbot_bean_UserBean__out"].content = [
+	{
+		"name":"headers",
+		"comment":null,
+		"typeValue":{
+			"type":"simple",
+			"typeValue":"object",
+		},
+		"deprecated":false,
+		"required":false,
+	},
+	{
+		"name":"body",
+		"comment":null,
+		"typeValue":com.qmino.miredot.restApiSource.tos["br_com_jarvis_pbot_bean_UserBean_out"],
+		"deprecated":false,
+		"required":false,
+	},
+	{
+		"name":"statusCode",
+		"comment":null,
+		"typeValue":com.qmino.miredot.restApiSource.enums["org_springframework_http_HttpStatus"],
+		"deprecated":false,
+		"required":false,
+	},
+];
+com.qmino.miredot.restApiSource.tos["org_springframework_http_ResponseEntity_br_com_jarvis_pbot_bean_UserBean__out"].ordered = "false";
+com.qmino.miredot.restApiSource.tos["org_springframework_http_ResponseEntity_br_com_jarvis_pbot_bean_UserBean__out"].comment = null;
+com.qmino.miredot.restApiSource.tos["org_springframework_http_ResponseEntity_java_lang_Boolean__in"].content = [
+];
+com.qmino.miredot.restApiSource.tos["org_springframework_http_ResponseEntity_java_lang_Boolean__in"].ordered = "false";
+com.qmino.miredot.restApiSource.tos["org_springframework_http_ResponseEntity_java_lang_Boolean__in"].comment = null;
+com.qmino.miredot.restApiSource.tos["org_springframework_http_ResponseEntity_java_lang_Boolean__out"].content = [
+	{
+		"name":"headers",
+		"comment":null,
+		"typeValue":{
+			"type":"simple",
+			"typeValue":"object",
+		},
+		"deprecated":false,
+		"required":false,
+	},
+	{
+		"name":"body",
+		"comment":null,
+		"typeValue":{
+			"type":"simple",
+			"typeValue":"boolean",
+		},
+		"deprecated":false,
+		"required":false,
+	},
+	{
+		"name":"statusCode",
+		"comment":null,
+		"typeValue":com.qmino.miredot.restApiSource.enums["org_springframework_http_HttpStatus"],
+		"deprecated":false,
+		"required":false,
+	},
+];
+com.qmino.miredot.restApiSource.tos["org_springframework_http_ResponseEntity_java_lang_Boolean__out"].ordered = "false";
+com.qmino.miredot.restApiSource.tos["org_springframework_http_ResponseEntity_java_lang_Boolean__out"].comment = null;
+com.qmino.miredot.restApiSource.tos["org_springframework_http_ResponseEntity_br_com_jarvis_pbot_bean_MessageBean__in"].content = [
+];
+com.qmino.miredot.restApiSource.tos["org_springframework_http_ResponseEntity_br_com_jarvis_pbot_bean_MessageBean__in"].ordered = "false";
+com.qmino.miredot.restApiSource.tos["org_springframework_http_ResponseEntity_br_com_jarvis_pbot_bean_MessageBean__in"].comment = null;
+com.qmino.miredot.restApiSource.tos["org_springframework_http_ResponseEntity_br_com_jarvis_pbot_bean_MessageBean__out"].content = [
+	{
+		"name":"headers",
+		"comment":null,
+		"typeValue":{
+			"type":"simple",
+			"typeValue":"object",
+		},
+		"deprecated":false,
+		"required":false,
+	},
+	{
+		"name":"body",
+		"comment":null,
+		"typeValue":com.qmino.miredot.restApiSource.tos["br_com_jarvis_pbot_bean_MessageBean_out"],
+		"deprecated":false,
+		"required":false,
+	},
+	{
+		"name":"statusCode",
+		"comment":null,
+		"typeValue":com.qmino.miredot.restApiSource.enums["org_springframework_http_HttpStatus"],
+		"deprecated":false,
+		"required":false,
+	},
+];
+com.qmino.miredot.restApiSource.tos["org_springframework_http_ResponseEntity_br_com_jarvis_pbot_bean_MessageBean__out"].ordered = "false";
+com.qmino.miredot.restApiSource.tos["org_springframework_http_ResponseEntity_br_com_jarvis_pbot_bean_MessageBean__out"].comment = null;
+com.qmino.miredot.restApiSource.tos["org_springframework_http_ResponseEntity_java_lang_Void__in"].content = [
+];
+com.qmino.miredot.restApiSource.tos["org_springframework_http_ResponseEntity_java_lang_Void__in"].ordered = "false";
+com.qmino.miredot.restApiSource.tos["org_springframework_http_ResponseEntity_java_lang_Void__in"].comment = null;
+com.qmino.miredot.restApiSource.tos["org_springframework_http_ResponseEntity_java_lang_Void__out"].content = [
+	{
+		"name":"headers",
+		"comment":null,
+		"typeValue":{
+			"type":"simple",
+			"typeValue":"object",
+		},
+		"deprecated":false,
+		"required":false,
+	},
+	{
+		"name":"body",
+		"comment":null,
+		"typeValue":{
+			"type":"simple",
+			"typeValue":"java.lang.Void",
+		},
+		"deprecated":false,
+		"required":false,
+	},
+	{
+		"name":"statusCode",
+		"comment":null,
+		"typeValue":com.qmino.miredot.restApiSource.enums["org_springframework_http_HttpStatus"],
+		"deprecated":false,
+		"required":false,
+	},
+];
+com.qmino.miredot.restApiSource.tos["org_springframework_http_ResponseEntity_java_lang_Void__out"].ordered = "false";
+com.qmino.miredot.restApiSource.tos["org_springframework_http_ResponseEntity_java_lang_Void__out"].comment = null;
+com.qmino.miredot.restApiSource.tos["br_com_jarvis_pbot_bean_MessageBean_in"].content = [
+	{
+		"name":"value",
+		"comment":null,
+		"typeValue":{
+			"type":"simple",
+			"typeValue":"string",
+		},
+		"deprecated":false,
+		"required":false,
+	},
+	{
+		"name":"id",
+		"comment":null,
+		"typeValue":{
+			"type":"simple",
+			"typeValue":"number",
+		},
+		"deprecated":false,
+		"required":false,
+	},
+	{
+		"name":"key",
+		"comment":null,
+		"typeValue":{
+			"type":"simple",
+			"typeValue":"string",
+		},
+		"deprecated":false,
+		"required":false,
+	},
+];
+com.qmino.miredot.restApiSource.tos["br_com_jarvis_pbot_bean_MessageBean_in"].ordered = "false";
+com.qmino.miredot.restApiSource.tos["br_com_jarvis_pbot_bean_MessageBean_in"].comment = null;
+com.qmino.miredot.restApiSource.tos["br_com_jarvis_pbot_bean_MessageBean_out"].content = [
+	{
+		"name":"value",
+		"comment":null,
+		"typeValue":{
+			"type":"simple",
+			"typeValue":"string",
+		},
+		"deprecated":false,
+		"required":false,
+	},
+	{
+		"name":"key",
+		"comment":null,
+		"typeValue":{
+			"type":"simple",
+			"typeValue":"string",
+		},
+		"deprecated":false,
+		"required":false,
+	},
+	{
+		"name":"id",
+		"comment":null,
+		"typeValue":{
+			"type":"simple",
+			"typeValue":"number",
+		},
+		"deprecated":false,
+		"required":false,
+	},
+];
+com.qmino.miredot.restApiSource.tos["br_com_jarvis_pbot_bean_MessageBean_out"].ordered = "false";
+com.qmino.miredot.restApiSource.tos["br_com_jarvis_pbot_bean_MessageBean_out"].comment = null;
+com.qmino.miredot.restApiSource.interfaces = [
+	{
+		"beschrijving":"Method to invalidate user session.",
+		"url":"/logout",
+		"http":"GET",
+		"title":"Method to invalidate user session",
+		"tags":[
+			
+		],
+		"authors":[
+			
+		],
+		"compressed":false,
+		"deprecated":false,
+		"consumes":[
+		],
+		"produces":[
+		],
+		"roles":[
+		],
+		"rolesAllowed":null,
+		"permitAll":false,
+		"output":{
+		},
+		"statusCodes":[
+		],
+		"hash":"-449536137",
+		"responseHeaders":{
+			"headers":[
+			],
+			"customHeaders":[
+			],
+		},
+		"inputs":{
+			"PATH":[
+			],
+			"QUERY":[
+			],
+			"BODY":[
+			],
+			"HEADER":[
+			],
+			"COOKIE":[
+			],
+			"FORM":[
+			],
+			"MATRIX":[
+			],
+		},
+	},
+	{
+		"beschrijving":"Get a message from user {userId} with key {key}",
+		"url":"/message/{userId}/{key}",
+		"http":"GET",
+		"title":"Get a message from user {userId} with key {key}",
+		"tags":[
+			
+		],
+		"authors":[
+			
+		],
+		"compressed":false,
+		"deprecated":false,
+		"consumes":[
+		],
+		"produces":[
+		],
+		"roles":[
+		],
+		"rolesAllowed":null,
+		"permitAll":false,
+		"output":{
+			"typeValue":com.qmino.miredot.restApiSource.tos["org_springframework_http_ResponseEntity_br_com_jarvis_pbot_bean_MessageBean__out"],
+			"comment":"MessageBean with the command result or DEFAULT_MESSAGE when message not found.",
+		},
+		"statusCodes":[
+		],
+		"hash":"-1587627843",
+		"responseHeaders":{
+			"headers":[
+			],
+			"customHeaders":[
+			],
+		},
+		"inputs":{
+			"PATH":[
+				{
+					"name":"userId",
+					"typeValue":{
+						"type":"simple",
+						"typeValue":"number",
+					},
+					"comment":"User that message belongs to",
+					"jaxrs":"PATH",
+				},
+				{
+					"name":"key",
+					"typeValue":{
+						"type":"simple",
+						"typeValue":"string",
+					},
+					"comment":"Command to search",
+					"jaxrs":"PATH",
+				},
+			],
+			"QUERY":[
+			],
+			"BODY":[
+			],
+			"HEADER":[
+			],
+			"COOKIE":[
+			],
+			"FORM":[
+			],
+			"MATRIX":[
+			],
+		},
+	},
+	{
+		"beschrijving":"Remove a message from authenticated user.",
+		"url":"/message/{key}",
+		"http":"DELETE",
+		"title":"Remove a message from authenticated user",
+		"tags":[
+			
+		],
+		"authors":[
+			
+		],
+		"compressed":false,
+		"deprecated":false,
+		"consumes":[
+		],
+		"produces":[
+		],
+		"roles":[
+		],
+		"rolesAllowed":null,
+		"permitAll":false,
+		"output":{
+			"typeValue":com.qmino.miredot.restApiSource.tos["org_springframework_http_ResponseEntity_java_lang_String__out"],
+			"comment":"String informing if message was removed.",
+		},
+		"statusCodes":[
+		],
+		"hash":"64484766",
+		"responseHeaders":{
+			"headers":[
+			],
+			"customHeaders":[
+			],
+		},
+		"inputs":{
+			"PATH":[
+				{
+					"name":"key",
+					"typeValue":{
+						"type":"simple",
+						"typeValue":"string",
+					},
+					"comment":"Command key to be removed",
+					"jaxrs":"PATH",
+				},
+			],
+			"QUERY":[
+			],
+			"BODY":[
+			],
+			"HEADER":[
+			],
+			"COOKIE":[
+			],
+			"FORM":[
+			],
+			"MATRIX":[
+			],
+		},
+	},
+	{
+		"beschrijving":"Update user informations",
+		"url":"/user/update",
+		"http":"POST",
+		"title":"Update user informations",
+		"tags":[
+			
+		],
+		"authors":[
+			
+		],
+		"compressed":false,
+		"deprecated":false,
+		"consumes":[
+		],
+		"produces":[
+		],
+		"roles":[
+		],
+		"rolesAllowed":null,
+		"permitAll":false,
+		"output":{
+			"typeValue":com.qmino.miredot.restApiSource.tos["org_springframework_http_ResponseEntity_br_com_jarvis_pbot_bean_UserBean__out"],
+			"comment":"Status code HttpStatus.OK if user updated successfully, HttpStatus.FORBIDDEN if user not authenticated, HttpStatus.BAD_REQUEST otherwise.",
+		},
+		"statusCodes":[
+		],
+		"hash":"1512260873",
+		"responseHeaders":{
+			"headers":[
+			],
+			"customHeaders":[
+			],
+		},
+		"inputs":{
+			"PATH":[
+			],
+			"QUERY":[
+			],
+			"BODY":[
+				{
+					"typeValue":com.qmino.miredot.restApiSource.tos["br_com_jarvis_pbot_bean_UserBean_in"],
+					"comment":"UserBean with user informations, such as name and password.",
+					"jaxrs":"BODY",
+				},
+			],
+			"HEADER":[
+			],
+			"COOKIE":[
+			],
+			"FORM":[
+			],
+			"MATRIX":[
+			],
+		},
+	},
+	{
+		"beschrijving":"Remove current authenticated user from system.",
+		"url":"/user/delete",
+		"http":"DELETE",
+		"title":"Remove current authenticated user from system",
+		"tags":[
+			
+		],
+		"authors":[
+			
+		],
+		"compressed":false,
+		"deprecated":false,
+		"consumes":[
+		],
+		"produces":[
+		],
+		"roles":[
+		],
+		"rolesAllowed":null,
+		"permitAll":false,
+		"output":{
+			"typeValue":com.qmino.miredot.restApiSource.tos["org_springframework_http_ResponseEntity_java_lang_Void__out"],
+			"comment":"HttpStatus.FORBIDDEN if user not authenticated, HttpStatus.OK if user successfully deleted.",
+		},
+		"statusCodes":[
+		],
+		"hash":"638683243",
+		"responseHeaders":{
+			"headers":[
+			],
+			"customHeaders":[
+			],
+		},
+		"inputs":{
+			"PATH":[
+			],
+			"QUERY":[
+			],
+			"BODY":[
+			],
+			"HEADER":[
+			],
+			"COOKIE":[
+			],
+			"FORM":[
+			],
+			"MATRIX":[
+			],
+		},
+	},
+	{
+		"beschrijving":"Authenticate user, this method will set User informations in session.",
+		"url":"/login",
+		"http":"POST",
+		"title":"Authenticate user, this method will set User informations in session",
+		"tags":[
+			
+		],
+		"authors":[
+			
+		],
+		"compressed":false,
+		"deprecated":false,
+		"consumes":[
+		],
+		"produces":[
+		],
+		"roles":[
+		],
+		"rolesAllowed":null,
+		"permitAll":false,
+		"output":{
+			"typeValue":com.qmino.miredot.restApiSource.tos["org_springframework_http_ResponseEntity_java_lang_Boolean__out"],
+			"comment":"true if user is allowed, false otherwise.",
+		},
+		"statusCodes":[
+		],
+		"hash":"-1768689316",
+		"responseHeaders":{
+			"headers":[
+			],
+			"customHeaders":[
+			],
+		},
+		"inputs":{
+			"PATH":[
+			],
+			"QUERY":[
+			],
+			"BODY":[
+				{
+					"typeValue":com.qmino.miredot.restApiSource.tos["br_com_jarvis_pbot_bean_UserBean_in"],
+					"comment":"UserBean containing user informations, such as name and password.",
+					"jaxrs":"BODY",
+				},
+			],
+			"HEADER":[
+			],
+			"COOKIE":[
+			],
+			"FORM":[
+			],
+			"MATRIX":[
+			],
+		},
+	},
+	{
+		"beschrijving":"Create/Update a command to authenticated user.",
+		"url":"/message/{key}/{value}",
+		"http":"POST",
+		"title":"Create/Update a command to authenticated user",
+		"tags":[
+			
+		],
+		"authors":[
+			
+		],
+		"compressed":false,
+		"deprecated":false,
+		"consumes":[
+		],
+		"produces":[
+		],
+		"roles":[
+		],
+		"rolesAllowed":null,
+		"permitAll":false,
+		"output":{
+			"typeValue":com.qmino.miredot.restApiSource.tos["org_springframework_http_ResponseEntity_java_lang_String__out"],
+			"comment":"String informing if message was saved successfully or not.",
+		},
+		"statusCodes":[
+		],
+		"hash":"-1893060779",
+		"responseHeaders":{
+			"headers":[
+			],
+			"customHeaders":[
+			],
+		},
+		"inputs":{
+			"PATH":[
+				{
+					"name":"key",
+					"typeValue":{
+						"type":"simple",
+						"typeValue":"string",
+					},
+					"comment":"Command key.",
+					"jaxrs":"PATH",
+				},
+				{
+					"name":"value",
+					"typeValue":{
+						"type":"simple",
+						"typeValue":"string",
+					},
+					"comment":"Value issued when command executed.",
+					"jaxrs":"PATH",
+				},
+			],
+			"QUERY":[
+			],
+			"BODY":[
+			],
+			"HEADER":[
+			],
+			"COOKIE":[
+			],
+			"FORM":[
+			],
+			"MATRIX":[
+			],
+		},
+	},
+	{
+		"beschrijving":"Create a new user in the system.",
+		"url":"/user/create",
+		"http":"POST",
+		"title":"Create a new user in the system",
+		"tags":[
+			
+		],
+		"authors":[
+			
+		],
+		"compressed":false,
+		"deprecated":false,
+		"consumes":[
+		],
+		"produces":[
+		],
+		"roles":[
+		],
+		"rolesAllowed":null,
+		"permitAll":false,
+		"output":{
+			"typeValue":com.qmino.miredot.restApiSource.tos["org_springframework_http_ResponseEntity_br_com_jarvis_pbot_bean_UserBean__out"],
+			"comment":"Status code HttpStatus.CREATED if user created successfully, HttpStatus.BAD_REQUEST otherwise.",
+		},
+		"statusCodes":[
+		],
+		"hash":"501424444",
+		"responseHeaders":{
+			"headers":[
+			],
+			"customHeaders":[
+			],
+		},
+		"inputs":{
+			"PATH":[
+			],
+			"QUERY":[
+			],
+			"BODY":[
+				{
+					"typeValue":com.qmino.miredot.restApiSource.tos["br_com_jarvis_pbot_bean_UserBean_in"],
+					"comment":"UserBean with user informations, such as name and password.",
+					"jaxrs":"BODY",
+				},
+			],
+			"HEADER":[
+			],
+			"COOKIE":[
+			],
+			"FORM":[
+			],
+			"MATRIX":[
+			],
+		},
+	},
+];
+com.qmino.miredot.projectWarnings = [
+	{
+		"category":"JAVADOC_MISSING_AUTHORS",
+		"description":"No author(s) specified for interface.",
+		"failedBuild":"false",
+		"interface":null,
+		"entity":null,
+	},
+	{
+		"category":"JAVADOC_MISSING_AUTHORS",
+		"description":"No author(s) specified for interface.",
+		"failedBuild":"false",
+		"interface":null,
+		"entity":null,
+	},
+	{
+		"category":"JAXRS_MISSING_PRODUCES",
+		"description":"Interface returns a result, but does not specify a Produces value.",
+		"failedBuild":"false",
+		"interface":null,
+		"entity":null,
+	},
+	{
+		"category":"JAVADOC_MISSING_AUTHORS",
+		"description":"No author(s) specified for interface.",
+		"failedBuild":"false",
+		"interface":null,
+		"entity":null,
+	},
+	{
+		"category":"JAXRS_MISSING_PRODUCES",
+		"description":"Interface returns a result, but does not specify a Produces value.",
+		"failedBuild":"false",
+		"interface":null,
+		"entity":null,
+	},
+	{
+		"category":"JAVADOC_MISSING_AUTHORS",
+		"description":"No author(s) specified for interface.",
+		"failedBuild":"false",
+		"interface":null,
+		"entity":null,
+	},
+	{
+		"category":"JAXRS_MISSING_PRODUCES",
+		"description":"Interface returns a result, but does not specify a Produces value.",
+		"failedBuild":"false",
+		"interface":null,
+		"entity":null,
+	},
+	{
+		"category":"JAXRS_MISSING_CONSUMES",
+		"description":"Interface specifies a JAXRS-BODY parameter, but does not specify a Consumes value.",
+		"failedBuild":"false",
+		"interface":null,
+		"entity":null,
+	},
+	{
+		"category":"JAVADOC_MISSING_AUTHORS",
+		"description":"No author(s) specified for interface.",
+		"failedBuild":"false",
+		"interface":null,
+		"entity":null,
+	},
+	{
+		"category":"JAXRS_MISSING_PRODUCES",
+		"description":"Interface returns a result, but does not specify a Produces value.",
+		"failedBuild":"false",
+		"interface":null,
+		"entity":null,
+	},
+	{
+		"category":"JAVADOC_MISSING_AUTHORS",
+		"description":"No author(s) specified for interface.",
+		"failedBuild":"false",
+		"interface":null,
+		"entity":null,
+	},
+	{
+		"category":"JAXRS_MISSING_PRODUCES",
+		"description":"Interface returns a result, but does not specify a Produces value.",
+		"failedBuild":"false",
+		"interface":null,
+		"entity":null,
+	},
+	{
+		"category":"JAXRS_MISSING_CONSUMES",
+		"description":"Interface specifies a JAXRS-BODY parameter, but does not specify a Consumes value.",
+		"failedBuild":"false",
+		"interface":null,
+		"entity":null,
+	},
+	{
+		"category":"JAVADOC_MISSING_AUTHORS",
+		"description":"No author(s) specified for interface.",
+		"failedBuild":"false",
+		"interface":null,
+		"entity":null,
+	},
+	{
+		"category":"JAXRS_MISSING_PRODUCES",
+		"description":"Interface returns a result, but does not specify a Produces value.",
+		"failedBuild":"false",
+		"interface":null,
+		"entity":null,
+	},
+	{
+		"category":"JAVADOC_MISSING_AUTHORS",
+		"description":"No author(s) specified for interface.",
+		"failedBuild":"false",
+		"interface":null,
+		"entity":null,
+	},
+	{
+		"category":"JAXRS_MISSING_PRODUCES",
+		"description":"Interface returns a result, but does not specify a Produces value.",
+		"failedBuild":"false",
+		"interface":null,
+		"entity":null,
+	},
+	{
+		"category":"JAXRS_MISSING_CONSUMES",
+		"description":"Interface specifies a JAXRS-BODY parameter, but does not specify a Consumes value.",
+		"failedBuild":"false",
+		"interface":null,
+		"entity":null,
+	},
+];
+com.qmino.miredot.processErrors = [
+];
+
