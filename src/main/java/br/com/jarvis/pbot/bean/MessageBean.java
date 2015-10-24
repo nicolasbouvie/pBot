@@ -8,6 +8,7 @@ public class MessageBean implements Bean<Message> {
 	private Long id;
 	private String key;
 	private String value;
+	private boolean query;
 
 	public Long getId() {
 		return id;
@@ -27,12 +28,19 @@ public class MessageBean implements Bean<Message> {
 	public void setValue(String value) {
 		this.value = value;
 	}
+	public boolean isQuery() {
+		return query;
+	}
+	public void setQuery(boolean query) {
+		this.query = query;
+	}
 	
 	public Message toEntity() {
 		Message m = new Message();
 		m.setId(id);
 		m.setKey(key);
 		m.setValue(value);
+		m.setQuery(query);
 		return m;
 	}
 }

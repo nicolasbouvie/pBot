@@ -13,9 +13,10 @@
 		<property name="hibernate.connection.password">ironman</property>
 
 		<property name="hibernate.show_sql">true</property>
-		<property name="hibernate.hbm2ddl.auto">create</property>
+		<property name="hibernate.hbm2ddl.auto">update</property>
 		<property name="hibernate.cache.provider_class">org.hibernate.cache.HashtableCacheProvider</property>
 
+		<mapping class="br.com.jarvis.pbot.model.Aula" />
 		<mapping class="br.com.jarvis.pbot.model.User" />
  		<mapping class="br.com.jarvis.pbot.model.Message" />
 	</session-factory>
