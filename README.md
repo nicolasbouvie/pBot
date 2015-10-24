@@ -1,5 +1,5 @@
 # &rho;Bot
-API Rest para integração de sistemas mensageiros para automatização de "Perguntas/Respostas".
+[API Rest](http://nicolasbouvie.github.io/doc/pbot/) para integração de sistemas mensageiros para automatização de "Perguntas/Respostas". 
 
 Exemplos:
 
